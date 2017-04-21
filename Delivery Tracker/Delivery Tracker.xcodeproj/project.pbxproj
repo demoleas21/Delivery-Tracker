@@ -17,6 +17,7 @@
 		49742CCD1EA65881000D9F09 /* Delivery_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49742CCC1EA65881000D9F09 /* Delivery_TrackerUITests.swift */; };
 		499C81781EA7D8E20060C252 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C81771EA7D8E20060C252 /* LoginViewController.swift */; };
 		499C817A1EA7ED700060C252 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499C81791EA7ED700060C252 /* CreateAccountViewController.swift */; };
+		49FE6E3D1EA9766700C11871 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE6E3C1EA9766700C11871 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		49742CCE1EA65881000D9F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		499C81771EA7D8E20060C252 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		499C81791EA7ED700060C252 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		49FE6E3C1EA9766700C11871 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				49742CAE1EA65880000D9F09 /* SecondViewController.swift */,
 				49742CB01EA65880000D9F09 /* Main.storyboard */,
 				499C81771EA7D8E20060C252 /* LoginViewController.swift */,
+				49FE6E3C1EA9766700C11871 /* LoginView.swift */,
 				499C81791EA7ED700060C252 /* CreateAccountViewController.swift */,
 				49742CB31EA65880000D9F09 /* Assets.xcassets */,
 				49742CB51EA65880000D9F09 /* LaunchScreen.storyboard */,
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FE6E3D1EA9766700C11871 /* LoginView.swift in Sources */,
 				499C817A1EA7ED700060C252 /* CreateAccountViewController.swift in Sources */,
 				499C81781EA7D8E20060C252 /* LoginViewController.swift in Sources */,
 				49742CAF1EA65880000D9F09 /* SecondViewController.swift in Sources */,
@@ -423,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Delivery Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Demoleas.Delivery-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Delivery Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Demoleas.Delivery-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -124,6 +124,14 @@ class CreateAccountViewController: UIViewController {
         
         NSLayoutConstraint.activate(allConstraints)
     }
+    
+    func segueToMenuPage() {
+        
+    }
+    
+    func segueToAccountCreatonPage() {
+        
+    }
 
     
 }
