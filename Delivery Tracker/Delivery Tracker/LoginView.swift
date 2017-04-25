@@ -9,7 +9,7 @@
 import UIKit
 
 class LoginView: UIView {
-    
+        
     var usernameField = UITextField()
     var passwordField = UITextField()
     let submitButton = UIButton(type: UIButtonType.system)
@@ -64,11 +64,11 @@ class LoginView: UIView {
             "createAccountButton": createAccountButton
             ] as [String : Any]
         let metrics = [
-            "elementDistance": self.frame.height / 11
+            "elementDistance": self.frame.height / 12
         ]
         
         let horizontalUsernameFieldConstraints = NSLayoutConstraint.constraints(withVisualFormat:
-            "|-100-[usernameField]-100-|",
+            "|-50-[usernameField]-100-|",
             options: [],
             metrics: metrics,
             views: viewConstraints
@@ -92,7 +92,7 @@ class LoginView: UIView {
         allConstraints += horizontalPasswordFieldConstraints
         
         let verticalPasswordFieldConstraints = NSLayoutConstraint.constraints(withVisualFormat:
-            "V:[usernameField]-(elementDistance)-[passwordField]",
+            "V:[usernameField]-50-[passwordField]",
             options: [],
             metrics: metrics,
             views: viewConstraints
